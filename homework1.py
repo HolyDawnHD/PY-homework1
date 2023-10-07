@@ -4,9 +4,10 @@ import matplotlib.pyplot as plt
 import sys
 from openpyxl.workbook import Workbook
 
+
 def main():
 
-    drinks=pd.read_csv('D://MyPythonSpace/homework1/drinks.csv',keep_default_na=False)
+    drinks=pd.read_csv('../PY-homework1-main/drinks.csv',keep_default_na=False)
 
 
 ###获取各大洲简称###
